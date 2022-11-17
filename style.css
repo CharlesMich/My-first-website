@@ -1,0 +1,134 @@
+body {
+    margin:0%;
+    padding:0%
+}
+header {
+    background-color: rgb(14, 159, 248);
+    height: 100px;
+    color: white;
+    font-size: 30pt;
+
+}
+a {
+    text-decoration: none;
+
+}
+.logo {
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    padding-left: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    font-size: 20pt;
+    background-color: rgb(203, 206, 213);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
+
+h1 {
+    text-align: center;
+}
+.homeimage {
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+.homeimage img{
+
+    height: auto;
+    width: 600px;
+    overflow: hidden;
+    padding-left: 20px;
+    border-right: 50px;
+}
+p {
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.h2text {
+    clear: both;
+}
+
+.h2text {
+    display: flex;
+    padding: 50px;
+}
+h2{
+    text-align: center;
+}
+.sightSeeing {
+    color: rgb(6, 5, 5);
+    font-size: 20pt;
+}
+.img1_6 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+figure {
+    text-align: center;
+    font-size: 20pt;
+}
+
+.infoform {
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+      grid-template-columns: 200px 300px;
+      gap: 16px;
+      width: 600px;
+      text-align: right;
+}
+label {
+    grid-column: 1 / 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input, button {
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 2 / 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+display: block;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 100%;
+  border-top: 1px solid white;
+}
+.thank {
+text-align: center;
+color: aliceblue;
+padding-top: 20px;
+font-size: 15pt;
+}
